@@ -1,0 +1,481 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'DM Serif Display'; */
+  
+}
+
+.overhead {
+  border: 3px solid rgb(255, 0, 0);
+  background: #E5E5E5;
+}
+
+
+/* --------------------NAVBAR-------------------- */
+
+
+.navbar {
+  border: 0px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+  width: 100%;
+  padding: 2%;
+}
+
+.harbor-logo-left {
+  border: 0px solid rgb(0, 0, 255);
+  flex: 1;
+  cursor: pointer;
+  background-color: transparent; 
+}
+
+.harbor-logo-left:hover {
+  opacity: 0.8;
+  
+}
+
+.section-text-right {
+  border: 0px solid rgb(0, 0, 255);
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+}
+
+.section-text-right div {
+cursor: pointer;
+height: 38px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+}
+
+.section-text-right div:hover {
+  background-color: rgba(101, 114, 123, 0.2);
+}
+
+.bckg-hover:hover {
+  width: 85px;
+}
+
+.know:hover {
+  width: 155px;
+  height: 38px;
+}
+
+
+
+/* -----------------Remaining-text-btn--------- */
+
+
+.Reimagining-text-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 124px;
+}
+
+.Reimagining-text-btn h1 {
+  width: 656px;
+  height: 112px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 116% */
+  text-align: center;
+  color: #28514F;
+}
+
+.Reimagining-text-btn p {
+width: 600px;
+height: 64px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+/* or 151% */
+text-align: center;
+color: #65727B;
+margin: 38px;
+}
+
+.stores-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stores-btn img {
+  margin: 10px;
+  background-color: transparent;
+}
+
+.stores-btn div:hover {
+ border: 1px solid black;
+ opacity: 0.9;
+}
+
+.app-store-btn {
+  height: 56px;
+  Width: 156px;
+  background-color: #28514F;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.Play-store-btn {
+  height: 56px;
+  Width: 156px;
+  background-color: #AEB4B6;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+/* ------------------phone img-------------------- */
+
+.phone-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 90px;
+  margin: 5%;
+}
+
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+.rectangle-line {
+  width: 157px;
+  height: 3px;
+background: rgba(27, 31, 43, 0.12);
+border-radius: 40px;
+}
+
+/* -------------------The-right-plan-text--------- */
+
+.The-right-plan-text {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.The-right-plan-text h1 {
+width: 641px;
+height: 112px;
+
+
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+/* or 116% */
+
+text-align: center;
+
+color: #28514F;
+margin: 4%;
+}
+
+.The-right-plan-text p {
+  width: 605px;
+height: 96px;
+
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+/* or 151% */
+
+text-align: center;
+
+color: #65727B;
+margin-bottom: 10%;
+}
+
+/* --------------------planning cards---------------- */
+
+.planning-cards {
+  display: flex;
+  border: 0px solid green;
+  align-items: center;
+  justify-content: center;
+}
+
+.up-cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px; 
+  row-gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.down-cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px; 
+  row-gap: 10px;
+  align-items: flex-start;
+  
+}
+
+.planning-cards h1 {
+    background-color: transparent;
+    height: 95px;
+  
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #1B1F2B;
+  Width: 400px;
+  margin: 30px;
+}
+
+.planning-cards p {
+  background-color: transparent;
+  font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+
+Width: 400px;
+color: #1B1F2B;
+margin: 30px;
+}
+
+.card {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 460px;
+  box-shadow: 5px 5px 10px rgba(27, 31, 43, 0.10);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  background-color: transparent;
+}
+
+.emergency-plan {
+  border: 0px solid rebeccapurple;
+  background-color: #DAE1F4;
+}
+
+.emergency-plan:hover {
+  transform: scale(1.02);
+  border: 1px solid rgba(85, 0, 255, 0.2);
+}
+
+
+
+.emergency-plan img {
+  background-color: transparent;
+  margin: 50px;
+  margin-bottom: 40px;
+}
+
+.emergency-plan .icon img {
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+.information-even-offline {
+  border: 0px solid rebeccapurple;
+  background: #D0E6F3;
+}
+
+.information-even-offline:hover {
+  transform: scale(1.02);
+  border: 1px solid rgba(0, 4, 255, 0.2);
+}
+
+.information-even-offline img {
+  background-color: transparent;
+  margin-bottom: 20%;
+}
+
+.information-even-offline .icon img {
+  margin-left: 30px;
+  margin-top: 15%;
+  margin-bottom: 0%;
+}
+
+.information-even-offline h1 {
+  margin-bottom: 20%;
+}
+
+.emergency-strikes {
+  border: 0px solid rebeccapurple;
+  background: #E0F0E6;
+}
+
+.emergency-strikes:hover {
+  transform: scale(1.02);
+  border: 1px solid rgba(26, 255, 0, 0.2);
+}
+
+.emergency-strikes img {
+  background-color: transparent;
+  margin: 50px;
+  margin-bottom: 40px;
+}
+
+.emergency-strikes .icon img {
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+.emergency-strikes p {
+  margin: 10%;
+}
+
+
+.risk-assessments {
+  border: 0px solid rebeccapurple;
+  background: #F4F0E9;
+  cursor: pointer;
+}
+
+.risk-assessments:hover {
+  transform: scale(1.02);
+  border: 1px solid rgba(255, 196, 0, 0.2);
+}
+
+.risk-assessments img {
+  background-color: transparent;
+  margin-bottom: 10%;
+}
+
+.risk-assessments .icon img {
+  margin-left: 30px;
+  margin-top: 15%;
+  margin-bottom: 0%;
+}
+
+
+/* ---------------We're ready are you?-------- */
+
+.Were-ready-are-you {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.Were-ready-are-you h1 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #28514F;
+  margin: 2%;
+  }
+  
+  .Were-ready-are-you  p {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  color: #65727B;
+  margin-bottom: 3%;
+  }
+
+
+/* -----------------------comments cards------------------- */
+
+.comment-cards {
+  border: 0px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-center{
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+}
+
+.comment-cards-wrapper {
+  height: 230px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-in-text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 10px 20px;
+  
+}
+
+.cards-p-text {
+  width: 218px;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #1B1F2B;
+margin-bottom: 5%;
+}
+
+.stars-margin {
+  margin: 3% 0;
+}
+
+.comment-cards-center {
+  margin: 2%;
+}
+
+.comment-logo-name-soft {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 3%;
+}
+
+.comment-logo-name-soft p {
+  padding-left: 15px;
+}
