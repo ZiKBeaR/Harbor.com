@@ -7,7 +7,7 @@
 }
 
 .overhead {
-  border: 3px solid rgb(255, 0, 0);
+  border: 1px solid rgba(255, 0, 0, 0);
   background: #E5E5E5;
 }
 
@@ -19,21 +19,25 @@
   border: 0px solid rgb(0, 0, 0);
   display: flex;
   align-items: center;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
   width: 100%;
   padding: 2%;
+  background-color: #E5E5E5;
 }
 
-.harbor-logo-left {
+.narbor-logo-left {
   border: 0px solid rgb(0, 0, 255);
   flex: 1;
   cursor: pointer;
   background-color: transparent; 
 }
 
-.harbor-logo-left:hover {
-  opacity: 0.8;
-  
+
+
+.narbor-logo-left:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(2px 2px 0.5px rgba(0, 0, 0, 0.5));
 }
 
 .section-text-right {
@@ -424,12 +428,14 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10%;
 }
 
 .cards-center{
   border: 0px solid red;
   display: flex;
   align-items: center;
+  margin-bottom: 10%;
 }
 
 .comment-cards-wrapper {
